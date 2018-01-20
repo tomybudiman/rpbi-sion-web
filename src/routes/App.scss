@@ -1,0 +1,13 @@
+@mixin welcome {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  @include welcome;
+}
+
+h2 {
+  @include welcome;
+}
